@@ -477,7 +477,7 @@
     transform: translateY(0);
     }   
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     
 
     header{
@@ -574,8 +574,4 @@
         display: block;
         width: 800px;
     }
-}
-
-@media (min-width: 400){
-
 }
