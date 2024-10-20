@@ -1,4 +1,4 @@
- body {
+    body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -576,5 +576,133 @@
     .download-container{
         display: block;
         width: 800px;
+    }
+
+    .download-card {
+        background: #f4f4f4;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        width: calc(45% - 10px);
+        margin-bottom: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+}
+
+
+@media (max-width: 390px) {
+    
+    html, body {
+        overflow-x: hidden;
+    }
+
+    header {
+        position: fixed;
+        width: 350px;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    #nav1{
+        display: none;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    .navbar {
+        width: auto;
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        opacity: 0;
+        transition: transform 0.3 ease-in-out;
+    }
+    
+    #nav2.active {
+        position: fixed;
+        display: block;
+        z-index: 100;
+        opacity: 1;
+        max-height: 300px;
+        background: rgba(197, 187, 187, 0.55);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(17.3px);
+        border: 1px solid rgba(197, 187, 187, 0.65);
+        width: 280px;
+        margin-left: 55px;
+        margin-top: 90px;   
+    }
+
+    .navbar a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        font-weight: 600;
+        position: relative;
+        opacity: 0.8;
+        font-weight: 600;
+    }
+    
+    .navbar a:hover {
+        opacity: 1;
+    }
+    
+    .icon {
+        color: #5a4f4f;
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        margin: 10px;
+        width: 50px;
+        transition: transform 0.3s ease;
+    }
+
+    .icon.active{
+        position: relative;
+        transform: rotate(180deg);
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img2{
+        display: none;
+    }
+
+    .img1 {
+        display: block;
+        max-width: 75%;
+        margin-left: 100px;
+        background: transparent;  
+    }
+
+    .about-text {
+        max-width: 100%;
+        padding-right: 0;
+    }
+    
+    .download-container{
+        display: block;
+        width: 800px;
+    }
+
+    .download-card {
+        background: #f4f4f4;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        width: calc(45% - 100px);
+        margin-bottom: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
     }
 }
