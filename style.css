@@ -1,4 +1,4 @@
-    body {
+ body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -217,7 +217,7 @@
 
     .project a:hover {
         text-decoration: underline;
-        color: #e6b800; /* Darker shade on hover */
+        color: #e6b800;
     }
 
     #certifications {
@@ -479,6 +479,9 @@
 
 @media (max-width: 480px) {
     
+    html, body {
+        overflow-x: hidden;
+    }
 
     header{
         position: sticky;
