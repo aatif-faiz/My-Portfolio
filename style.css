@@ -470,7 +470,7 @@ footer {
 
 
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
 
     html, body {
         overflow-x: hidden;
@@ -511,7 +511,7 @@ footer {
         -webkit-backdrop-filter: blur(17.3px);
         border: 1px solid rgba(197, 187, 187, 0.65);
         width: 350px;
-        margin-left: 40px;
+        margin-left: 50px;
         margin-top: 10px;   
     }
 
@@ -589,7 +589,7 @@ footer {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 410px) {
 
     html, body {
         overflow-x: hidden;
@@ -633,7 +633,7 @@ footer {
         -webkit-backdrop-filter: blur(17.3px);
         border: 1px solid rgba(197, 187, 187, 0.65);
         width: 280px;
-        margin-left: 50px;
+        margin-left: 65px;
         margin-top: 90px;   
     }
 
@@ -659,7 +659,7 @@ footer {
         cursor: pointer;
         font-size: 30px;
         margin: 10px;
-        margin-right: 5px;
+        margin-right: -25px;
         width: 50px;
         transition: transform 0.3s ease;
     }
@@ -711,7 +711,7 @@ footer {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
 
     html, body {
         overflow-x: hidden;
@@ -754,8 +754,8 @@ footer {
         backdrop-filter: blur(8px);
         -webkit-backdrop-filter: blur(17.3px);
         border: 1px solid rgba(197, 187, 187, 0.65);
-        width: 245px;
-        margin-left: 40px;
+        width: 275px;
+        margin-left: 50px;
         margin-top: 90px;   
     }
     
@@ -781,7 +781,7 @@ footer {
         cursor: pointer;
         font-size: 26px;
         margin: 10px;
-        margin-right: 25px;
+        margin-right: -20px;
         width: 50px;
         transition: transform 0.3s ease;
     }
@@ -816,10 +816,6 @@ footer {
         max-width: 100%;
         padding-right: 0;
     }
-
-    .project{
-        width: 210px;
-    }
     
     .download-container{
         display: block;
@@ -831,7 +827,7 @@ footer {
         border-radius: 8px;
         padding: 20px;
         text-align: center;
-        width: calc(45% - 150px);
+        width: calc(45% - 110px);
         margin-bottom: 20px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s, box-shadow 0.3s;
