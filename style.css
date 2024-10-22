@@ -536,7 +536,7 @@ footer {
         cursor: pointer;
         font-size: 30px;
         margin: 10px;
-        margin-right: -20px;
+        margin-right: -10px;
         width: 50px;
         transition: transform 0.3s ease;
     }
@@ -659,7 +659,7 @@ footer {
         cursor: pointer;
         font-size: 30px;
         margin: 10px;
-        margin-right: -25px;
+        margin-right: -15px;
         width: 50px;
         transition: transform 0.3s ease;
     }
@@ -781,7 +781,7 @@ footer {
         cursor: pointer;
         font-size: 26px;
         margin: 10px;
-        margin-right: -20px;
+        margin-right: -15px;
         width: 50px;
         transition: transform 0.3s ease;
     }
